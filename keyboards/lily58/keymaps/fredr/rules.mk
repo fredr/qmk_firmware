@@ -1,4 +1,5 @@
 # EXTRAKEY_ENABLE = yes
+MOUSEKEY_ENABLE = yes
 POINTING_DEVICE_ENABLE = yes
 POINTING_DEVICE_DRIVER = pimoroni_trackball
 BOOTLOADER             = atmel-dfu
