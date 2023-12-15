@@ -22,3 +22,6 @@
 #define POINTING_DEVICE_INVERT_X
 #define POINTING_DEVICE_INVERT_Y
 #define MOUSE_EXTENDED_REPORT
+
+// home row mods
+#define TAPPING_TERM 200
