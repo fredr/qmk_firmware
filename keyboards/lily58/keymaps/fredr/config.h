@@ -17,6 +17,11 @@
 #    define RGBLIGHT_SAT_STEP 6 // number of steps to increment the saturation by
 #    define RGBLIGHT_VAL_STEP 6 // number of steps to increment the brightness by
 #    define RGBLIGHT_SLEEP      //  the RGB lighting will be switched off when the host goes to sleep
+#    define RGBLIGHT_SPLIT
+#endif
+
+#ifdef RGB_MATRIX_ENABLE
+#    define RGB_DISABLE_WHEN_USB_SUSPENDED true
 #endif
 
 #define POINTING_DEVICE_INVERT_X
